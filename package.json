@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:ghpages": "cross-env VITE_BASE_PATH=/PSIT-Startup-Incubation-Foundation/ vite build",
+    "build:ghpages": "cross-env VITE_BASE_PATH=/ vite build",
     "predeploy": "npm run build:ghpages",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
@@ -45,5 +45,5 @@
     "tailwindcss": "^3.4.17",
     "vite": "^5.4.10"
   },
-  "homepage": "https://shivansh-ojha09.github.io/PSIT-Startup-Incubation-Foundation/"
+  "homepage": "https://psitsif-.github.io/"
 }
